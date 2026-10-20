@@ -1,2 +1,2 @@
-# registration-page
+# application
 Webinar Registration

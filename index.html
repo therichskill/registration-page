@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#76d4ff" />
+  <title>Webinar Registration</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Meta Pixel Code -->
+  <script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','1854718639201518');fbq('track','PageView');</script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1854718639201518&ev=PageView&noscript=1" /></noscript>
+</head>
+<body class="registration-page">
+  <div class="top-center-logo" aria-label="The Richskills logo"><img src="richskills-skyblue.svg" alt="The Richskills — Unlock Your Potential" draggable="false" /></div>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Webinar home"><span class="brand-mark">W</span><span>WEBINAR</span></a>
+    <span class="live-label"><span class="live-dot"></span> REGISTRATION OPEN</span>
+  </header>
+  <div class="welcome-overlay" id="welcomeOverlay" aria-live="polite"><div class="welcome-glass"><span class="welcome-spark">✦</span><p>WELCOME TO YOUR NEXT STEP</p><h1>Welcome<span>.</span></h1><small>Let’s begin your journey</small></div></div>
+  <main class="registration-main">
+    <section class="form-card registration-glass" id="register" aria-labelledby="form-title">
+      <p class="card-kicker">YOUR NEXT STEP STARTS HERE</p>
+      <div class="card-heading"><div><h2 id="form-title">Webinar Registration</h2></div><span class="edit-icon" aria-hidden="true">✦</span></div>
+      <p class="form-subtitle">Apni details bharein aur apni jagah pakki karein.</p>
+      <form id="registrationForm" autocomplete="on">
+        <label class="field"><span>Your Name</span><input type="text" name="name" placeholder="Apna naam likhein" autocomplete="name" required /></label>
+        <label class="field"><span>Mobile Number</span><input type="tel" name="phone" placeholder="10 digit mobile number" autocomplete="tel" inputmode="numeric" pattern="[0-9+() -]{10,}" required /></label>
+        <label class="field"><span>City</span><input type="text" name="city" placeholder="Aap kis city se hain?" autocomplete="address-level2" required /></label>
+        <label class="field"><span>Profession</span><select name="profession" required><option value="" disabled selected>Apna profession select karein</option><option>Student</option><option>Job</option><option>Business</option><option>Freelancer</option><option>Other</option></select></label>
+        <button class="submit-button" type="submit">Register Now <span aria-hidden="true">→</span></button>
+        <p class="secure-note"><span aria-hidden="true">✦</span> Aapki details registration ke liye use hongi</p>
+        <p class="success-message" id="successMessage" role="status" hidden>Shukriya! Aapka registration submit ho gaya.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer scroll-reveal" aria-label="Website footer">
+    <div class="footer-wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,38 C180,88 320,0 500,38 S820,82 1000,38 S1280,0 1440,38 L1440,100 L0,100 Z" fill="#248bce" opacity=".48"/><path d="M0,52 C180,12 320,92 500,52 S820,12 1000,52 S1280,92 1440,52 L1440,100 L0,100 Z" fill="#123a66" opacity=".72"/><path d="M0,66 C180,30 320,96 500,66 S820,30 1000,66 S1280,96 1440,66 L1440,100 L0,100 Z" fill="#071a31"/></svg>
+      <svg class="wave-two" viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,38 C180,88 320,0 500,38 S820,82 1000,38 S1280,0 1440,38 L1440,100 L0,100 Z" fill="#54c7ff" opacity=".45"/><path d="M0,52 C180,12 320,92 500,52 S820,12 1000,52 S1280,92 1440,52 L1440,100 L0,100 Z" fill="#176da5"/></svg>
+      <svg class="wave-three" viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,38 C180,88 320,0 500,38 S820,82 1000,38 S1280,0 1440,38 L1440,100 L0,100 Z" fill="#9ce8ff" opacity=".28"/></svg>
+    </div>
+    <div class="footer-inner">
+      <div class="footer-about">
+        <div class="footer-brand"><span class="footer-brand-mark">W</span><span>WEBINAR</span></div>
+        <p class="footer-description">Learn step by step, ask questions, and make informed decisions. Please review the policies before registering.</p>
+      </div>
+      <div>
+        <h2 class="footer-heading">Quick links</h2>
+        <ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="video.html">Webinar details</a></li><li><a href="privacy-policy.html">Privacy Policy</a></li><li><a href="refund-policy.html">Refund Policy</a></li></ul>
+      </div>
+      <div>
+        <h2 class="footer-heading">Connect</h2>
+        <div class="footer-socials" aria-label="Social media links">
+          <a class="footer-social" href="https://www.instagram.com/an4vijayyy?rpxt=MXN0aHp0dDMyb2N6ZA==" aria-label="Instagram" title="Instagram" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2.2A2.8 2.8 0 0 0 4.2 7v10A2.8 2.8 0 0 0 7 19.8h10a2.8 2.8 0 0 0 2.8-2.8V7A2.8 2.8 0 0 0 17 4.2H7zm5 2.3a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11zm0 2.2a3.3 3.3 0 1 0 0 6.6 3.3 3.3 0 0 0 0-6.6zm5.8-3.2a1.3 1.3 0 1 1 0 2.6 1.3 1.3 0 0 1 0-2.6z"/></svg></a>
+          <a class="footer-social" href="https://wa.me/917688897306" aria-label="WhatsApp" title="WhatsApp" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 2 17.7L.5 23.5l6-1.6A11.8 11.8 0 0 0 20.5 3.5zM12 21a9 9 0 0 1-4.6-1.3l-.3-.2-3.5.9.9-3.4-.2-.4A9 9 0 1 1 12 21zm5-6.7c-.3-.2-1.8-.9-2.1-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a7.5 7.5 0 0 1-2.2-1.4 8.3 8.3 0 0 1-1.5-1.9c-.2-.3 0-.5.1-.7l.5-.5.3-.6c.1-.2 0-.4 0-.6l-1-2.2c-.2-.5-.5-.4-.7-.4h-.6c-.2 0-.6.1-.9.4s-1.2 1.2-1.2 2.8 1.2 3.2 1.4 3.4a11.5 11.5 0 0 0 4.4 3.9c.6.3 1.1.5 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.8-.7 2-1.4s.3-1.3.2-1.4-.2-.3-.5-.4z"/></svg></a>
+          <a class="footer-social" href="https://t.me/" aria-label="Telegram" title="Telegram" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.8 3.2 18.5 20c-.2 1.2-.9 1.5-1.9.9l-5.2-3.8-2.5 2.4c-.3.3-.5.5-1 .5l.4-5.3 9.7-8.8c.4-.4-.1-.6-.6-.2L5.4 13.3.3 11.7c-1.1-.4-1.1-1.1.2-1.6L20.4 2.5c.9-.3 1.7.2 1.4.7z"/></svg></a>
+        </div>
+        <p class="footer-description">Follow us on Instagram or message us on WhatsApp for help.</p>
+      </div>
+    </div>
+    <div class="footer-bottom"><span>© <span class="footer-year">2026</span> Webinar. All rights reserved.</span><span>Read our <a href="privacy-policy.html">Privacy Policy</a> and <a href="refund-policy.html">Refund Policy</a>.</span></div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="scroll-reveal.js"></script>
+</body>
+</html>
